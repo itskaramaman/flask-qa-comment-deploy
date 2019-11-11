@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block content %}
+	<h1>Dashboard</h1>
+	<ul class="list-group">
+		{% for post in posts %}
+		<li class="list-group-item mb-2"> 
+			<span><b>{{ post.title }}</b></span><br>
+			<span>{{ post.content }}</span>
+		</li>
+		{% endfor %}
+	</ul>
+{% endblock %}
