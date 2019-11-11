@@ -5,7 +5,7 @@ from flask_admin.contrib.sqla import ModelView
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://enilcqpnnvivrd:9e1f93cf1c67489a93a2b856d48c1b84a78d5338992d29d5d984d309bcb28812@ec2-54-197-238-238.compute-1.amazonaws.com:5432/d7h77110l6d2fi'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://vjwqqednitmzbt:b7c62297c87d2f2e2d5eb990f5deea63ed9de9b973feaece0197300ef432520f@ec2-174-129-253-47.compute-1.amazonaws.com:5432/d94ljkebh92d46'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'secret_shhh'
 
