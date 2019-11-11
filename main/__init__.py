@@ -14,6 +14,8 @@ from main.models import Post
 admin = Admin(app)
 admin.add_view(ModelView(Post, db.session))
 
+db.create_all()
+
 
 from main.views import dashboard_bp, post_bp
 app.register_blueprint(dashboard_bp)
